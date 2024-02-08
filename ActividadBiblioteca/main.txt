@@ -1,0 +1,17 @@
+ Realizar el diagrama de clase del sistema para una biblioteca
+ Una biblioteca maneja dos clases de materiales: libros y revistas. Estas dos clases tienen en
+común dos características: título y año
+ Una revista, adicional a las dos características descritas anteriormente, tiene: issn, volumen
+y mes
+ La biblioteca tiene copias de libros. Un libro adicional a las dos características descritas
+anteriormente, se caracteriza por su isbn, tipo (novela, teatro, poesía, ensayo), editorial y
+autor.
+ Los autores se caracterizan por su nombre, nacionalidad y fecha de nacimiento
+ Cada copia tiene un identificador y un estado que puede ser: en la biblioteca, prestada, con
+retraso o en reparación
+ Los lectores se identifican con un número de socio, tienen su nombre, teléfono y dirección.
+Cada lector puede tener un máximo de 3 libros (copias) en préstamo
+ Cada copia de libro se presta un máximo de 30 días, por cada día de retraso, se impone al
+lector una “multa” de dos días sin posibilidad de coger un nuevo libro
+ Realizar un diagrama de clases y añadir los métodos necesarios para realizar el
+préstamo, la devolución de libros y multar. Asociar estos métodos al lector.
