@@ -2,6 +2,7 @@ public class Ejemplo7c {
     public static void main(String[] args) {
     int array[] = new int[10];
 
+
     int suma = 0;
     int cont = 0;
 

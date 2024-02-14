@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "atributos",
+            "request": "launch",
+            "mainClass": "atributos",
+            "projectName": "GeneralPOO_7a3693ca"
+        },
+        {
+            "type": "java",
+            "name": "prueba",
+            "request": "launch",
+            "mainClass": "prueba",
+            "projectName": "GeneralPOO_7a3693ca"
+        },
+        {
+            "type": "java",
             "name": "ScannerDemo",
             "request": "launch",
             "mainClass": "ScannerDemo",
