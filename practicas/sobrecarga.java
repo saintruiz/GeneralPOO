@@ -3,21 +3,27 @@ class Animal {
     System.out.println("Grr...");
   }
 }
+
 class Cat extends Animal {
   public void makeSound() {
     System.out.println("Meow");
   }
 }
+
 class Dog extends Animal {
   public void makeSound() {
     System.out.println("Woof");
   }
 }
 
-public static void main(String[ ] args) {
-  Animal a = new Dog();
-  Animal b = new Cat();
+class mainSolution {
+  public static void main(String[] args) {
+    Animal a = new Dog();
+    Animal b = new Cat();
+
+    a.makeSound();
+    b.makeSound();
+  }
 }
 
-a.makeSound();
-b.makeSound();
+
