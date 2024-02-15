@@ -3,6 +3,7 @@ class Animal {
     System.out.println("Grr...");
   }
 }
+//Al no declarar los métodos como estaticos, lo métodos pertenecen a los objetos
 
 class Cat extends Animal {
   public void makeSound() {

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FamiliaAnimales",
+            "request": "launch",
+            "mainClass": "FamiliaAnimales",
+            "projectName": "GeneralPOO_7a3693ca"
+        },
+        {
+            "type": "java",
+            "name": "Alcance",
+            "request": "launch",
+            "mainClass": "Alcance",
+            "projectName": "GeneralPOO_7a3693ca"
+        },
+        {
+            "type": "java",
             "name": "atributos",
             "request": "launch",
             "mainClass": "atributos",

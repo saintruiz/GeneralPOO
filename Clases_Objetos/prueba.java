@@ -3,16 +3,29 @@ class Cliente{
     String nombre;
     long cedula;
 }
+//La clase Cliente o tiene ni métodos de clase ni de objetos
 
 class CuentaBancaria{
     long numero;
     Cliente titular;
-    static int saldo;
-    public static int ingresar(int valor){
-        int saldoActual= saldo+valor;
-        return saldoActual;
+    double saldo;
+    public void ingresar(double valor){
+        saldo+= valor;
+        System.out.println("Se ha ingresado valor");
     }
-}
+
+    public void retirar(double valor){
+        if (valor>saldo){
+            System.out.println("Saldo insuficiente");
+        }else{
+            saldo-=valor;
+            System.out.println("El dinero ha sido retirado");
+        }
+    }
+    //El método ingresar se refiere a un método de la clase, de caracter público al cuál se puede acceder desde fuera de la clase
+    //Y el cual retorna un entero
+    }
+
 
 public class prueba{
     public static void main(String[] args){
@@ -28,8 +41,7 @@ public class prueba{
         cuenta1.numero=6331532;
         cuenta1.titular=cliente1;
 
-        int saldoCuenta1=cuenta1.ingresar(1000000);
-        System.out.println(saldoCuenta1);
+        cuenta1.ingresar(1000);
 
         
 
