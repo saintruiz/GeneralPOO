@@ -21,10 +21,12 @@ public class Alcance{
         metodo3();
         System.out.println("x= " + x);
         System.out.println("x= " + this.x);
+
         metodo2();
         x=metodo1(this.x);
         System.out.println("x= " + x);
         System.out.println("x= " + this.x);
+        
         this.x=metodo1(x);
         System.out.println("x= " + x);
         System.out.println("x= " + this.x);
