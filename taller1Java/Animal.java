@@ -38,7 +38,7 @@ public class Animal {
             System.out.println(nombre + " y " + pareja.nombre + " son del mismo genero"); 
             return null; 
         } 
-        System.out.println(.nombre + " y " + pareja.nombre + " van a tener un hijo"); 
+        System.out.println(nombre + " y " + pareja.nombre + " van a tener un hijo"); 
         Familia f = new Familia(); //Se crea el objeto familia
 
         if (this.genero.equals("M")) { 
