@@ -6,6 +6,8 @@ public class Familia {
     Animal hijo; 
     void imprimir() { 
     String genero; 
+
+    
     if (hijo.genero.equals("M")) 
     genero = "masculino"; 
     else 
